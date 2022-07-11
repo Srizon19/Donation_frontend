@@ -30,12 +30,12 @@ body{
 .header_center{
 
     text-align: center;
-    font-size: smaller;
+    margin-top: 100px;
 }
 
 .text_grey{
     text-align: center;
-    color: rgb(183, 171, 171);
+    color: rgb(138, 132, 132);
     margin-bottom: 50px;
 }
 
@@ -48,7 +48,7 @@ body{
     color: aliceblue;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 80px;
+    
 }
 
 .flex_container{
@@ -81,7 +81,7 @@ body{
     
 }
 
-::placeholder{
+#money_form{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(211, 211, 211);
@@ -106,4 +106,46 @@ body{
     text-align: left;
     padding: 20px;
     margin-right: 20px;
+}
+
+#email{
+    padding: 7px 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.email_background{
+    padding: 25px 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: lightgoldenrodyellow;
+}
+
+.footer_fonts{
+    font-family: 'Lobster', cursive;
+    color: crimson;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.half_width{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.half_width p{
+    color: rgb(138, 132, 132);
+    margin-bottom: 50px;
+}
+
+.half_width img{
+    width: 90%;
+    height: 90%;
 }
