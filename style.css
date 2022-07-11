@@ -1,0 +1,109 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+
+}
+
+.intro_text{
+    
+    font-size: 3.5rem;
+    font-weight: 800 ;
+    
+
+}
+
+.header_page{
+    
+    height: 400px;
+    background-image:  url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 0px 0px 0px 10px;
+    
+
+}
+
+.header_center{
+
+    text-align: center;
+    font-size: smaller;
+}
+
+.text_grey{
+    text-align: center;
+    color: rgb(183, 171, 171);
+    margin-bottom: 50px;
+}
+
+
+
+
+.red_button{
+    padding: 10px 30px;
+    background-color: rgb(255, 68, 0);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: center;
+}
+
+.span_styling{
+    padding: 20px;
+    margin-left: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    text-align: center;
+   
+}
+
+.red_span{
+
+    border: 5px solid rgb(246, 54, 92);
+    background-color: rgb(253, 221, 227);
+    color: rgb(246, 54, 92);
+}
+
+.input_design{
+    margin-top: 50px;
+    width: 85%;
+    border: 0px solid;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    margin-bottom: 50px;
+    
+}
+
+::placeholder{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(211, 211, 211);
+}
+
+.background_blue{
+    background-color: rgb(199, 230, 240);
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.background_yellow{
+    background-color: rgb(244, 244, 211);
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.background_pink{
+    background-color: rgb(249, 201, 208);
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+}
